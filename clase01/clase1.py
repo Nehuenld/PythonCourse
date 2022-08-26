@@ -100,8 +100,23 @@ str(1111)# convierte en string'''
 #El input siempre retorna un str
 #hay que convertir el dato
 
-x = input("ingrese cantidad yin: ")## ingresa usuario por teclado 
-y = 10
-x = int(x)
-suma1 = y + x 
-print(suma1)
+yin = input("ingrese cantidad yin: ")## ingresa usuario por teclado 
+yang = 10
+
+print(sumaTao)
+
+
+########################################
+#FUNCIONES
+
+def imprimir(nom,msj): 
+   print(msj,end="")
+   print(nom+": ")
+
+imprimir("Nehuen ","Crack")
+
+def suma(num1,num2):
+   suma=num1+num2
+   return suma
+
+suma(1000,1001)
