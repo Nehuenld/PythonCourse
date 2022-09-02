@@ -120,4 +120,57 @@ def suma(num1,num2):
    suma=num1+num2
    return suma
 
+<<<<<<< Updated upstream
 suma(1000,1001)
+=======
+suma(1000,1001)
+
+###########################
+#Ejercicios
+
+#1.1. 
+'''Desarrollar un programa que solicite por pantalla(consola) el ingreso de un numero entero. 
+Luego el programa debe mostrar por pantalla (consola) el numero ingresado.'''
+
+numeroIngresado =input("Ingrese Numero: ")
+print("Usted Ingreso: ", numeroIngresado)
+
+#1.2
+'''Desarrollar un programa que solicite por teclado dos lados de un rectangulo. Luego calcular el perimetro y area del mismo. Mostrar los resultados de la siguiente forma:'''
+# Area: num...
+#Perimetro: num...
+
+lado1     = int(input("Ingresar Lado 1: "))
+lado2     = int(input("Ingresar Lado 2: "))
+area      = lado1*lado2
+perimetro = lado1+lado2
+print("Área: ", area)
+print("Perímetro", perimetro)
+
+#1.3
+'''Desarrollar un programa que solicite el ingreso de dos numeros enteros. Luego el programa debera mostrar por pantalla el resultado de sumar, restar, multiplar y dividir dichos numeros ingresados.
+'''
+
+num1 =int(input("Ingresar Numero 1: "))
+num2 =int(input("Ingresar Numero 2: "))
+
+print("Los resultados para 4 y 2 son: ")
+print("La suma: ", (num1+num2))
+print("La resta: ", (num1-num2))
+print("La división: ", int(num1/num2))
+print("La multiplicación: ", (num1*num2))
+
+#1.4
+'''
+Desarrollar un programa que solicite el ingreso de un número real. Luego el programa deberá mostrar la descomposición del número real en su parte entera y su parte decimal.
+'''
+
+numero = float(input("Ingrese Numero: "))
+print("Los resultados para ",numero," son:")
+print("parte entera", int(numero))
+decimales = round((numero-int(numero)),4)
+print("Parte decimal: ", decimales)
+
+
+
+>>>>>>> Stashed changes
