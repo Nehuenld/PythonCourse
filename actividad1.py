@@ -30,3 +30,9 @@ y = int(3.14)
 z = x+y
 print(z)
 
+#### ejercicio 2.3
+
+'''def main()
+    areaCirc()
+'''
+
