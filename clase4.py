@@ -16,8 +16,8 @@
 # or suma y trae las dos condiciones
 # hacer una x f==c or f+c==b-1
 # f>=c and f+c>=b 
-
-'''def figura(b,car,esp):
+# (f>=c and f+c>=b-1) or c==b//2 or f==b//2 
+'''def figura(b,car,esp): 
     for f in range(0,b):
         for c in range(0,b):
             if f==c and f+c==b-1:

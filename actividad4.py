@@ -90,7 +90,7 @@ main()'''
 def figura (b,car):
     for f in range(0,b):
         for c in range(0,b):
-            if (f<=c and f+c<=b-1) or c==b//2 :
+            if f+3<=c  or (f+3)+c<=b-1 or f-3>=c or (f-3)+c>=b-1:
                 print(car,end="")
             else:
                 print(end="  ")
