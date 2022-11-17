@@ -73,7 +73,7 @@ def maxi3(a,b,c): # imprime el maximo de tres
 def traduce(num):
     if num==1:
         res="UNO"
-    elif num2==2:
+    elif num==2:
         res="DOS"
     elif num==3:
         res="TRES"

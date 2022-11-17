@@ -14,7 +14,7 @@
 
 # while
 # for
-
+'''
 #### while #####
 
 def cicloW(ini, fin):
@@ -22,9 +22,10 @@ def cicloW(ini, fin):
     while i<fin:
         print("hola")
         i+=i ## contador
+        
     
 cicloW(1,5)
-
+'''
 ###break ### esta mal usado mala practica
 ### fundamentos distra
 ### return ### no tiene que estar en cualquier lado porque rompe el ciclo, siempre al final
